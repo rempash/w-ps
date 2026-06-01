@@ -3,7 +3,7 @@
 This document contains the step-by-step instructions to deploy the NestJS backend to [Railway](https://railway.app/).
 
 ## Prerequisites
-- The backend port has already been adjusted to use `process.env.PORT || 3000` (so Railway can inject the correct port).
+- The backend port has already been adjusted to use `process.env.PORT ||   ` (so Railway can inject the correct port).
 - The code must be pushed to a GitHub repository.
 
 ## Step-by-Step Deployment
@@ -40,3 +40,7 @@ Railway automatically detects `package.json` and runs `npm install` and `npm run
 
 ### 5. Finalize Deployment
 Once the variables and start command are configured, Railway should automatically trigger a redeploy (if not, you can manually click "Deploy" or push a new commit to trigger it). You can monitor the logs in the **Deployments** tab to ensure the server starts up correctly!
+
+
+### backend url
+w-ps-production.up.railway.app

@@ -1,5 +1,8 @@
 // export const BASE_URL = 'http://192.168.9.206:3000'; // Replace with your machine's local IP for physical device testing
-export const BASE_URL = 'http://localhost:3000'; // Replace with your machine's local IP for physical device testing
+// export const BASE_URL = __DEV__ 
+//   ? 'http://localhost:3000' 
+//   : 'https://w-ps-production.up.railway.app';
+export const BASE_URL = 'https://w-ps-production.up.railway.app';
 
 export type ChatResponse = {
   success: boolean;
