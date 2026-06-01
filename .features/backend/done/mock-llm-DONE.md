@@ -1,0 +1,1 @@
+Summary: You need to develop a way to run the backend without real llm request, use some env variable and if its true don't send the request to the llm, instead return a mock response. Try to create some mock service that will be used instead of real llm service based on env variable.
